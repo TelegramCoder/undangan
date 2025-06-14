@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // fitur Hitung Mundur
 // Mengatur waktu akhir perhitungan mundur
-var countDownDate = new Date("Jul 30, 2023 10:00:00").getTime();
+var countDownDate = new Date("Jun 21, 2025 10:00:00").getTime();
 
 // Memperbarui hitungan mundur setiap 1 detik
 var x = setInterval(function () {
@@ -144,7 +144,7 @@ function noUtsman() {
   textarea.select();
   document.execCommand("copy");
   document.body.removeChild(textarea);
-  toastr["success"]("No Dana Berhasil Disalin", "Success");
+  toastr["success"]("No Rekening BCA Berhasil Disalin", "Success");
 }
 function noYani() {
   var teks = document.getElementById("textSalin2").textContent;
@@ -157,5 +157,5 @@ function noYani() {
   textarea.select();
   document.execCommand("copy");
   document.body.removeChild(textarea);
-  toastr["success"]("No Dana Berhasil Disalin", "Success");
+  toastr["success"]("No Rekening BRI Berhasil Disalin", "Success");
 }
